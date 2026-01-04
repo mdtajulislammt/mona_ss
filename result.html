@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Capture Result</title>
+    <script src="jspdf.min.js"></script>
+    <style>
+        body { background: #e9ecef; margin: 0; font-family: sans-serif; }
+        .toolbar { background: #333; color: white; padding: 10px; display: flex; justify-content: space-between; position: sticky; top: 0; }
+        .container { display: flex; justify-content: center; padding: 20px; }
+        img { box-shadow: 0 0 20px rgba(0,0,0,0.2); max-width: 80%; background: white; }
+        button { background: #28a745; color: white; border: none; padding: 10px 20px; border-radius: 4px; cursor: pointer; margin-left: 10px; }
+    </style>
+</head>
+<body>
+    <div class="toolbar">
+        <span>GoFullPage Clone</span>
+        <div>
+            <button id="downloadPng">Download PNG</button>
+            <button id="downloadPdf">Download PDF</button>
+        </div>
+    </div>
+    <div class="container">
+        <img id="resultImage" src="" />
+    </div>
+
+    <script src="result.js"></script>
+</body>
+</html>

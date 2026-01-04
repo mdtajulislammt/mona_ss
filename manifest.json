@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "Full Page PDF Screenshot",
-  "version": "1.2",
+  "name": "Pro Full Page Capture",
+  "version": "1.5",
   "permissions": ["activeTab", "scripting", "tabs"],
   "action": {
     "default_popup": "popup.html"
